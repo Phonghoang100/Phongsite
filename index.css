@@ -262,7 +262,7 @@ img{
     to {color: rgba(117, 117, 214, 0.404);}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .header #down_arrow{
         animation: none;
     }
