@@ -263,6 +263,9 @@ img{
 }
 
 @media (max-width: 500px) {
+     html, body{
+        scroll-behavior: smooth;
+    }
     .header #down_arrow{
         animation: none;
     }
