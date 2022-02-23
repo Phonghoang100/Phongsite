@@ -43,6 +43,7 @@ ul{
 img{
     width: 50%;
 }
+
 /* Side Bar */
 .side-bar{
     position: fixed;
@@ -120,7 +121,7 @@ img{
 
 /* Background Page */
 .background_page{
-    background-color: #40E0D0;
+    background-color: aqua;
     text-align: center;
     padding-bottom: 5em;
 }
@@ -159,9 +160,18 @@ img{
     margin-bottom: 2em;
 }
 .skills_page .skills li{
-    margin-top: 1em;
+    margin-top: 1vh;
     color: rgba(0, 195, 255, 0.829);
     font-size: 2em;
+}
+
+.skills_page .skills ul span .fas{
+    color: aqua;
+    -webkit-text-stroke-width: 1px;
+}
+.skills_page .skills ul span .far{
+    color: orange;
+    -webkit-text-stroke-color: orange;
 }
 
 /* Hobbies Page */
@@ -237,7 +247,7 @@ img{
 
 .contact_page .links a:hover{
     transform: scale(2);
-    color: rgba(229, 255, 0, 0.863);
+    color: aqua;
 }
 
 .contact_page p{
@@ -263,7 +273,7 @@ img{
 }
 
 @media (max-width: 500px) {
-     html, body{
+    html, body{
         scroll-behavior: smooth;
     }
     .header #down_arrow{
@@ -271,11 +281,7 @@ img{
     }
     .side-bar{
         display: none;
-    }
-
-    .contact_page .contact_info div > i{
-        border: 1px solid black;
-    }
+    } 
 
     .contact_page .links a{
         font-size: 2em;
