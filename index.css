@@ -17,17 +17,6 @@ html, body{
     align-items: center;
 }
 
-h1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 5em;
-    text-align: center;
-}
-
-h2{
-    font-family: 'Lobster', cursive;
-    font-size: 3em;
-}
-
 h3{
     font-family: 'Pushster', cursive;
 }
@@ -102,6 +91,17 @@ img{
 .about_me_page{
     margin-top: -5vw;
     z-index: 1;
+}
+
+.about_me_page .profile h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+.about_me_page .profile h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
 }
 
 .about_me_page img{
